@@ -251,6 +251,7 @@ export default function App() {
     <div className="app-wrapper">
 
       <div className="top-buttons">
+        <span>Valentin Ruiz León</span>
         <button className="icon-btn" onClick={newProblem} title="Nuevo problema">🎲</button>
         <button className="icon-btn" onClick={restartProblem} title="Reiniciar este problema">🔄</button>
         <button className="icon-btn close-btn" onClick={() => window.close()} title="Cerrar aplicación">❌</button>
